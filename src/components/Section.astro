@@ -1,10 +1,10 @@
 ---
 import { cn } from '@/utils'
 
-const { class: className, title } = Astro.props
+const { id, class: className, title } = Astro.props
 ---
 
-<section class='flex flex-col gap-y-5 py-5'>
+<section id={id} class='flex flex-col gap-y-5 py-5'>
 	<div class='text-xl font-semibold text-secondary-foreground '>
 		<h1 class="font-bold">{title}</h1>
 	</div>
