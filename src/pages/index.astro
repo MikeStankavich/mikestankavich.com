@@ -1,0 +1,220 @@
+---
+import PageLayout from '../layouts/Base.astro';
+import Section from '../components/Section.astro';
+import Card from '../components/Card.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import Label from '../components/IconText.astro';
+import SkillLayout from '../components/SkillLayout.astro';
+import PostPreview from '@/components/blog/PostPreview.astro';
+
+import { Image } from 'astro:assets';
+import astro from '../assets/about-astro.png';
+
+import { getAllPosts, sortMDByDate } from '@/utils';
+import Base from '../layouts/Base.astro';
+import Sidebar from '@/components/Sidebar.astro';
+import ToolSection from '@/components/ToolSection.astro';
+
+const languages = ['lorem', 'ipsum'];
+const frontend = ['lorem', 'ipsum', 'lorem', 'ipsum', 'lorem', 'ipsum', 'lorem'];
+const backend = ['lorem', 'ipsum', 'lorem', 'ipsum'];
+const others = ['lorem', 'ipsum', 'lorem', 'ipsum', 'lorem'];
+
+const MAX_POSTS = 10;
+const allPosts = await getAllPosts();
+const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
+
+
+const DESIGN = [
+	{
+		name: 'Figma',
+		description: 'Design Tool',
+		href: 'https://www.figma.com/',
+		iconPath: 'figma',
+		iconBgColour: '#000001'
+	}
+]
+
+const PRODUCTIVITY = [
+	{
+		name: 'Arc',
+		description: 'Browser',
+		href: 'https://arc.net/',
+		iconPath: 'arc',
+		iconBgColour: '#414350'
+	},
+	{
+		name: 'Notion',
+		description: 'Note Taking',
+		href: 'https://www.notion.so/product',
+		iconPath: 'notion',
+		iconBgColour: '#EFEFEE'
+	},
+	{
+		name: 'Obsidian',
+		description: 'Long-form Writing',
+		href: 'https://obsidian.md/',
+		iconPath: 'obsidian',
+		iconBgColour: '#7A3EE8'
+	}
+]
+
+const DEVELOPMENT = [
+	{
+		name: 'VS Code',
+		description: 'IDE',
+		href: 'https://code.visualstudio.com/',
+		iconPath: 'vscode',
+		iconBgColour: '#2C2C32'
+	},
+	{
+		name: 'ChatGPT',
+		description: 'AI',
+		href: 'https://chat.openai.com/',
+		iconPath: 'chatgpt',
+		iconBgColour: '#06A67F'
+	}
+]
+---
+
+<Base meta={{ title: 'Home' }}>
+	<div class="grid grid-cols-1 gap-5 md:grid-cols-3">
+		<Sidebar />
+		<div class="md:col-span-2 md:mr-5">
+			<div class="bg-background-tertiary mt-20 rounded-2xl border border-transparent p-5">
+				<Section title="About me">
+					<p class="text-muted-foreground">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis atque quia omnis
+						consectetur, voluptas praesentium veniam blanditiis ratione asperiores accusantium
+						laborum odit commodi quis deserunt incidunt et dolor iure ut! Lorem ipsum dolor sit,
+						amet consectetur adipisicing elit. Alias quia, doloribus ut beatae perspiciatis
+						voluptatibus.
+					</p>
+				</Section>
+
+				<Section title="Experience">
+					<Card
+						heading="Lorem Ipsum"
+						subheading="Sit amet consectetur"
+						date="Dec 2022 - Nov 2023"
+						altText="Lorem, ipsum dolor sit"
+					>
+						<ul class="ml-4 list-disc text-muted-foreground">
+							<li>
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis recusandae,
+								ut molestiae laboriosam pariatur!
+
+								<li>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, pariatur!
+								</li>
+							</li>
+						</ul>
+					</Card>
+					<Card
+						heading="Lorem Ipsum"
+						subheading="Sit amet consectetur"
+						date="Dec 2022 - Nov 2023"
+						altText="Lorem, ipsum dolor sit"
+					/>
+				</Section>
+
+				<Section title="Education">
+					<Card
+						heading="Lorem Ipsum"
+						subheading="Sit amet consectetur"
+						date="Dec 2022 - Nov 2023"
+						altText="Lorem, ipsum dolor sit"
+					>
+						<ul class="ml-4 list-disc text-muted-foreground">
+							<li>
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis recusandae,
+								ut molestiae laboriosam pariatur!
+
+								<li>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, pariatur!
+								</li>
+							</li>
+						</ul>
+					</Card>
+					<Card
+						heading="Lorem Ipsum"
+						subheading="Sit amet consectetur"
+						date="Dec 2022 - Nov 2023"
+						altText="Lorem, ipsum dolor sit"
+					/>
+				</Section>
+
+				<Section title="Projects">
+					<div class="flex flex-col gap-y-3 sm:flex-row sm:gap-x-3 sm:gap-y-0">
+						<ProjectCard
+							href="https://www.google.com"
+							heading="Consectetur"
+							subheading="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+							imagePath="/src/assets/coming-soon.png"
+							altText="Example"
+							class="w-full sm:w-1/2"
+						/>
+						<ProjectCard
+							as="div"
+							heading="Coming soon..."
+							subheading=""
+							imagePath="/src/assets/coming-soon.png"
+							altText="Lorem, ipsum dolor sit"
+							class="w-full sm:w-1/2"
+						/>
+					</div>
+				</Section>
+
+				<Section title="Certifications">
+					<Card
+						as="a"
+						heading="Lorem ipsum, dolor sit amet consectetur adipisicing."
+						subheading="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta magni consequuntur corrupti."
+						date="Mar 2024 - Mar 2024"
+						altText="Lorem, ipsum dolor sit"
+						href="https://www.google.com"
+					/>
+					<Card
+						as="a"
+						heading="Lorem ipsum, dolor sit amet"
+						subheading="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta."
+						date="Mar 2029 - Mar 2032"
+						altText="Lorem, ipsum dolor sit"
+						href="https://www.google.com"
+					/>
+				</Section>
+
+				<Section title="Skills">
+					<SkillLayout title="Languages" skills={languages} />
+					<SkillLayout title="Backend" skills={backend} />
+					<SkillLayout title="Frontend" skills={frontend} />
+					<SkillLayout title="Others" skills={others} />
+				</Section>
+
+				<div class="mt-5 flex w-full flex-col gap-y-10">
+					<div>
+						<h1 class="mb-1 text-2xl font-bold text-secondary-foreground">Tools</h1>
+						<p class="text-muted-foreground">Tools and software I use to build whatever I like</p>
+					</div>
+
+					<ToolSection title="Design" tools={DESIGN} />
+					<ToolSection title="Productivity" tools={PRODUCTIVITY} />
+					<ToolSection title="Development" tools={DEVELOPMENT} />
+				</div>
+
+				{
+					allPostsByDate.length > 0 && (
+						<Section title="Posts">
+							<ul class="flex flex-col gap-y-2">
+								{allPostsByDate.map((p) => (
+									<li class="flex flex-col gap-x-2 sm:flex-row" />
+								))}
+							</ul>
+						</Section>
+					)
+				}
+
+			</div>
+		</div>
+	</div></Base
+>

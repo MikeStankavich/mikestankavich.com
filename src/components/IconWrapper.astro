@@ -1,0 +1,11 @@
+---
+import { cn } from '@/utils';
+import { Icon } from 'astro-icon/components';
+
+const {icon, class: className, href} = Astro.props;
+---
+<div class={cn(
+    className,
+    "shadow-sm p-2 rounded-lg",
+    !href && 'cursor-default',
+)}><Icon name={icon} /></div>
