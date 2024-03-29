@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: "This is the second post of my new Astro blog."
 publishDate: 2023-12-24
 description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
@@ -122,7 +121,7 @@ Some text to show that the reference links can follow later.
 Images included in _\_posts_ folder are lazy loaded.
 
 Inline-style:
-![alt text](/src/images/random.jpeg "Logo Title Text 1")
+![alt text](/src/assets/coming-soon.png "Logo Title Text 1")
 
 ## Table
 

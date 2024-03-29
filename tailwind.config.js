@@ -1,5 +1,4 @@
 import { fontFamily } from 'tailwindcss/defaultTheme';
-import colors from 'tailwindcss/colors';
 
 /** @type {import('tailwindcss').Config} */
 const config = {

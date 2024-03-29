@@ -23,8 +23,8 @@
 		--background-tertiary: rgb(255, 255, 255); 
 		--primary: rgb(255, 255, 255);
 		--primary-foreground: rgb(243, 243, 243);
-		--secondary: 240 4.8% 95.9%;
-		--secondary-foreground: 240 5.9% 10%;
+		--secondary: rgb(0, 0, 0);
+		--secondary-foreground: rgb(0, 0, 0);
 		--muted: 240 4.8% 95.9%;
 		--muted-foreground: 240 3.8% 46.1%;
 		--accent: 240 4.8% 95.9%;

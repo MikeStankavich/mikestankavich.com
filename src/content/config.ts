@@ -7,22 +7,19 @@ function removeDupsAndLowerCase(array: string[]) {
 	return Array.from(distinctItems)
 }
 
-const post = defineCollection({
+const postCollection = defineCollection({
 	type: 'content',
 	schema: ({ image }) =>
 		z.object({
 			title: z.string().max(60),
-			description: z.string().min(50).max(160),
-			publishDate: z
-				.string()
+			description: z.string().min(10).max(200),
+			publishDate: z.string()
 				.or(z.date())
 				.transform((val) => new Date(val)),
-			updatedDate: z
-				.string()
+			updatedDate: z.string()
 				.optional()
 				.transform((str) => (str ? new Date(str) : undefined)),
-			coverImage: z
-				.object({
+			coverImage: z.object({
 					src: image(),
 					alt: z.string()
 				})
@@ -33,4 +30,4 @@ const post = defineCollection({
 		})
 })
 
-export const collections = { post }
+export const collections = { 'post': postCollection }

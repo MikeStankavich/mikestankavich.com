@@ -1,7 +1,7 @@
 ---
 import type { SiteMeta } from '@/types';
 
-import Head from '@/components/Head.astro';
+import Head from '@/components/layout/Head.astro';
 import Footer from '@/components/layout/Footer.astro';
 import Header from '@/components/layout/Header.astro';
 import ThemeProvider from '@/components/ThemeProvider.astro';
@@ -16,17 +16,21 @@ const {
 } = Astro.props;
 ---
 
-<html lang={siteConfig.lang} class="">
+<html lang={siteConfig.lang} class="h-full">
 	<Head articleDate={articleDate} description={description} ogImage={ogImage} title={title} />
 
-	<body class="flex justify-center bg-background">
+	<body
+		class="flex h-full justify-center bg-background bg-[url('/blurry-gradient-haikei.svg')] bg-cover bg-fixed dark:bg-[url('/blurry-gradient-haikei-dark.svg')]"
+	>
 		<ThemeProvider />
 		<main
-			class="flex w-screen lg:max-w-7xl flex-col items-center px-5 md:px-0 py-5 font-satoshi leading-relaxed"
+			class="flex w-screen flex-col items-center px-5 pt-5 font-satoshi leading-relaxed md:px-0 lg:max-w-7xl"
 		>
-		<Header />
+			<Header />
 			<slot />
-			<Footer />
+			<div class="w-full text-primary-foreground">
+				<Footer />
+			</div>
 		</main>
 	</body>
 </html>

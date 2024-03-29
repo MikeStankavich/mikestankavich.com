@@ -2,35 +2,41 @@
 
 Unlock a seamless blend of aesthetics and functionality to share your unique voice with the world.
 
-
-
-
-## Features
+## 🔥 Features
 
 Explore the Astro.js Personal Blog Template – a sleek and feature-rich platform for your personal blog:
 
-- **Astro.js Powered**: Dynamic and efficient JavaScript-driven experience.
-- **Tailwind CSS Integration**: Ensures a stylish and responsive design.
-- **RSS Feed Support**: Keeps your audience updated effortlessly.
-- **Markdown Compatibility**: Streamlines content creation with easy formatting.
-- **Syntax Highlighting**: Enhances code snippet readability for tech enthusiasts.
-- **SEO-Optimized**: Includes a sitemap for optimal search engine visibility.
-- **Vercel Deployment:** preconfigured Vercel deployment & web analytics.
-- **Framework of your choice:** 100% Astro.js only template - choose your JS Framework (react preinstalled)
-- Astro v4
-- TailwindCSS utility classes
-- ESLint / Prettier pre-installed and pre-configured
-- Accessible, semantic HTML markup
-- Responsive & SEO-friendly
-- Dark / Light mode, using Tailwind and CSS variables (referenced from shadcn)
-- [Astro Assets Integration](https://docs.astro.build/en/guides/assets/) for optimised images
-- MD & [MDX](https://docs.astro.build/en/guides/markdown-content/#mdx-only-features) posts
-- Pagination
-- [Automatic RSS feed](https://docs.astro.build/en/guides/rss)
-- Auto-generated [sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/)
-- [Expressive Code](https://expressive-code.com/) source code and syntax highlighter
+✨ **Astro.js v4 Powered**: Easy customization options
 
-## Integrations
+✨ **UI/UX Design**: User-friendly and convincing interface
+
+✨ **Export**: Downloadable CV option for the reader
+
+✨ **Showcase**: Showcase your Expert Areas, Experience, Education, Projects, Portfolio, Blogs, Skills and Tools with individual sections
+
+✨ **Low Code Customization**: No coding required - you can easily customize content and style by 30+ components and style variables
+
+✨ **Tailwind CSS Integration**: Easy to edit with light and dark mode
+
+✨ **SEO-Support & Performance**: Excellent Lighthouse/PageSpeed scores & sitemap integration
+
+✨ **RSS Feed Support**: Keeps your audience updated effortlessly
+
+✨ **Framework of your choice:** 100% Astro.js only template - choose your JS Framework (react preinstalled)
+
+✨ **Markdown Compatibility**: Streamlines content creation with easy formatting
+
+✨ **Syntax Highlighting**: Enhances code snippet readability for tech enthusiasts
+
+✨ **ESLint / Prettier**: pre-installed and pre-configured to keep your workflow simple
+
+✨ **Vercel Deployment:** preconfigured Vercel deployment & web analytics
+
+## 💻 Showcase
+
+![showcase](/public/showcase.png 'AstroPress - Resume 01')
+
+## 📦 Integrations
 
 - @astrojs/tailwind - https://docs.astro.build/en/guides/integrations-guide/tailwind/
 - @astrojs/react - https://docs.astro.build/en/guides/integrations-guide/react/
@@ -38,12 +44,11 @@ Explore the Astro.js Personal Blog Template – a sleek and feature-rich platfor
 - @astrojs/rss - https://docs.astro.build/en/guides/rss/
 - @vercel/analytics - https://vercel.com/docs/analytics/
 - rehype-pretty-code - https://rehype-pretty-code.netlify.app/
-## Credits
+- [Astro Assets Integration](https://docs.astro.build/en/guides/assets/) for optimised images
+- MD & [MDX](https://docs.astro.build/en/guides/markdown-content/#mdx-only-features) posts
+- astro-icon - Astro Icon svg icon component
 
-- [astro-theme-cactus](https://github.com/chrismwilliams/astro-theme-cactus) for blog design
-- [minirezume-framer](https://minirezume.framer.website/) for resume homepage design
-
-## Project Structure
+## 🏛️ Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
@@ -69,7 +74,7 @@ Inside of your Astro project, you'll see the following folders and files:
 └── tsconfig.json
 ```
 
-## Editing guide
+## 📝 Editing guide
 
 ### Site info
 
@@ -85,7 +90,9 @@ To edit page components found site-wide such as the card used in the homepage, e
 
 ### Layouts
 
-To edit the base layouts of all pages, edit the `src/layouts/BaseLayout.astro` file.
+To edit the base layouts of the resume page, edit the `src/layouts/Base.astro` file.
+
+To edit the layout of all other pages, edit the `src/layouts/BaseBlog.astro` file.
 
 To edit the layout of a blog article, edit the `src/layouts/BlogPost.astro` file.
 
@@ -95,13 +102,15 @@ To add blog content, insert `.md` files in the `src/content/` directory.
 
 To add images in blog articles, insert a folder in the `src/content/` directory, add both the `.md` and image files into the new folder, and reference the image in your `.md` file.
 
-## Theming
+## 👨🏻‍🎨 Theming
 
 To change the theme colours of the site, edit the `src/styles/app.css` file.
 
-To change the fonts of the site, add your font files into `/public`, add it as a `@font-face` in the `src/styles/app.css` file, as a `fontFamily` in the `tailwind.config.js` file, and apply the new font class to the `body` tag in the `src/layouts/BaseLayout.astro` file.
+To change the fonts of the site, add your font files into `/public`, add it as a `@font-face` in the `src/styles/app.css` file, as a `fontFamily` in the `tailwind.config.js` file, and apply the new font class to the `main` tag in the `src/layouts/Base.astro` or `src/layouts/BaseBlog.astro` file.
 
-## Commands
+To change the background, edit the classes on the `body` tag in the `src/layouts/Base.astro` or `src/layouts/BaseBlog.astro` file. If you would like to add an image as the background, simple add it to the `/public/` folder and reference it on the `body` tag in the `src/layouts/Base.astro` or `src/layouts/BaseBlog.astro` file via tailwind classes. 
+
+## 🚀 Getting started
 
 All commands are run from the root of the project, from a terminal:
 
@@ -114,6 +123,13 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro --help` | Get help using the Astro CLI                     |
 
-## Want to learn more?
+## ❤️ Helping out
 
-Feel free to check Astros [documentation](https://docs.astro.build)
+If you find that something isn't working right then I'm always happy to hear it to improve this starter! You can contribute in many ways and forms. Let me know by either:
+
+1. [Filing an issue](https://github.com/nicdun/astro-resume/issues)
+2. [Submitting a pull request](https://github.com/nicdun/astro-resume/pulls)
+3. [Starting a discussion](https://github.com/nicdun/astro-resume/discussions)
+
+## ☕ Thank you!
+A big thank you to the creators of the awesome Astro static site generator :)

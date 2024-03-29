@@ -1,9 +1,8 @@
 ---
 import { cn } from '@/utils';
-import { Icon } from 'astro-icon/components';
 import IconWrapper from './IconWrapper.astro';
 
-const { class: className, title, href, icon, subTitle, ...props } = Astro.props;
+const { class: className, title, href, subTitle, icon } = Astro.props;
 ---
 
 <div
@@ -13,7 +12,7 @@ const { class: className, title, href, icon, subTitle, ...props } = Astro.props;
 		href && 'hover:opacity-75 transition-all'
 	)}
 >
-	<IconWrapper icon="arc" class="bg-background-tertiary"/>
+	<IconWrapper icon={icon} classIcon="h-5 w-5" class="bg-background-tertiary"/>
 	<div class="flex flex-col">
 		<span class="text-xs uppercase text-accent-200">{title}</span>
 		<span class="font-bold dark:text-white">{subTitle}</span>
