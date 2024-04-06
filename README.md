@@ -34,7 +34,7 @@ Explore the Astro.js Personal Blog Template – a sleek and feature-rich platfor
 
 ## 💻 Showcase
 
-![showcase](/public/showcase.png 'AstroPress - Resume 01')
+![showcase](/showcase/Showcase_black.png 'AstroPress - Resume 01')
 
 ## 📦 Integrations
 
