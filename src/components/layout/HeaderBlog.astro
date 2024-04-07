@@ -16,7 +16,7 @@ const { class: className } = Astro.props;
 		<a
 			class="flex flex-row items-center justify-start text-2xl font-semibold uppercase"
 			href="/"
-			aria-label="Brand">astro<span class="text-accent-300">resume</span>01</a
+			aria-label="astroresume01">astro<span class="text-accent-300">resume</span>01</a
 		>
 
 		<div class="col-span-1 flex flex-row items-center justify-end md:col-span-2">
@@ -24,13 +24,13 @@ const { class: className } = Astro.props;
 				<a
 					href="/"
 					class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-					aria-label="Nav Menu Item"
+					aria-label="About"
 					>About
 				</a>
 				<a
 					href="/blog"
 					class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-					aria-label="Nav Menu Item"
+					aria-label="Blog"
 					>Blog
 				</a>
 			</div>
@@ -94,28 +94,18 @@ const { class: className } = Astro.props;
 			<a
 				href="/"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="About"
 				>About
 			</a>
 			<a
 				href="/blog"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="Blog"
 				>Blog
 			</a>
 		</nav>
 </header>
 
 <script>
-	function getCurrentTheme() {
-		return localStorage.getItem('theme');
-	}
-	const toggleDarkModeButton = document.getElementById('toggleDarkMode');
-
-	toggleDarkModeButton?.addEventListener('click', () => {
-		const toggleDarkModeEvent = new CustomEvent('theme-change', {
-			detail: { theme: getCurrentTheme() === 'light' ? 'dark' : 'light' }
-		});
-		document.dispatchEvent(toggleDarkModeEvent);
-	});
+	import '../../scripts/toggleTheme';
 </script>

@@ -13,19 +13,19 @@ import IconWrapper from './IconWrapper.astro';
 		src={portrait}
 		alt="profile photo"
 		class="bg-accent-200 z-10 h-56 w-auto rounded-3xl p-1"
-		loading="eager"
+		loading="lazy"
 	/>
 
 	<Card class="bg-background-tertiary mt-[-6rem] w-full max-w-[400px] p-5">
 		<div class="flex flex-col items-center gap-y-4 pb-10 pt-24">
 			<h1 class="text-3xl font-bold text-secondary-foreground">Lorem ipsum dolor</h1>
-			<h3 class="text-xl text-secondary-foreground">Position</h3>
+			<h2 class="text-xl text-secondary-foreground">Position</h2>
 
 			<div class="flex flex-row gap-x-4 pb-3 pt-1">
-				<a href="https://github.com" target="_blank"><IconWrapper href="https://github.com" icon="github" classIcon="h-5 w-5" class="bg-accent-200" /></a>
-				<a href="https://linkedin.com" target="_blank"><IconWrapper href="https://linkedin.com" icon="linkedin" classIcon="h-5 w-5" class="bg-accent-200" /></a>
-				<a href="https://twitter.com" target="_blank"><IconWrapper href="https://twitter.com" icon="twitter" classIcon="h-5 w-5" class="bg-accent-200" /></a>
-				<a href="/rss.xml" target="_blank"><IconWrapper href="/rss.xml" icon="rss" classIcon="h-5 w-5" class="bg-accent-200" /></a>
+				<a href="https://github.com" target="_blank" aria-label="github"><IconWrapper href="https://github.com" icon="github" classIcon="h-5 w-5" class="bg-accent-200" /></a>
+				<a href="https://linkedin.com" target="_blank" aria-label="linkedin"><IconWrapper href="https://linkedin.com" icon="linkedin" classIcon="h-5 w-5" class="bg-accent-200" /></a>
+				<a href="https://twitter.com" target="_blank" aria-label="twitter"><IconWrapper href="https://twitter.com" icon="twitter" classIcon="h-5 w-5" class="bg-accent-200" /></a>
+				<a href="/rss.xml" target="_blank" aria-label="rss"><IconWrapper href="/rss.xml" icon="rss" classIcon="h-5 w-5" class="bg-accent-200" /></a>
 			</div>
 			<Card
 				class="bg-background-secondary flex w-full flex-col gap-x-7 gap-y-1 p-5 text-secondary-foreground"

@@ -8,7 +8,7 @@ const { class: className } = Astro.props;
 <header class={cn(className, 'lg:max-w-7xl w-full md:fixed z-20 md:px-5')}>
 	<nav class="grid grid-cols-1 md:grid-cols-3" aria-label="global" x-data="{ open: false }">
 		<div class="col-span-1 flex flex-row items-start justify-between">
-			<a class="flex-none text-2xl font-semibold uppercase" href="/" aria-label="Brand"
+			<a class="flex-none text-2xl font-semibold uppercase" href="/" aria-label="astroresume01"
 				>astro<span class="text-accent-300">resume</span>01</a
 			>
 
@@ -70,43 +70,43 @@ const { class: className } = Astro.props;
 			<a
 				href="#"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="About"
 				>About
 			</a>
 			<a
 				href="#experience"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="Experience"
 				>Experience
 			</a>
 			<a
 				href="#education"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="Education"
 				>Education
 			</a>
 			<a
 				href="#projects"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="Projects"
 				>Projects
 			</a>
 			<a
 				href="#skills"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="Skills"
 				>Skills
 			</a>
 			<a
 				href="#tools"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="Tools"
 				>Tools
 			</a>
 			<a
 				href="/blog"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="Blog"
 				>Blog
 			</a>
 		</nav>
@@ -122,37 +122,37 @@ const { class: className } = Astro.props;
 			<a
 				href="#experience"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="Experience"
 				>Experience
 			</a>
 			<a
 				href="#education"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="Education"
 				>Education
 			</a>
 			<a
 				href="#projects"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="Projects"
 				>Projects
 			</a>
 			<a
 				href="#skills"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="Skills"
 				>Skills
 			</a>
 			<a
 				href="#tools"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="Tools"
 				>Tools
 			</a>
 			<a
 				href="/blog"
 				class="hover:text-accent-300 flex-none text-[1.05rem] font-medium"
-				aria-label="Nav Menu Item"
+				aria-label="Blog"
 				>Blog
 			</a>
 		</div>
@@ -160,15 +160,5 @@ const { class: className } = Astro.props;
 </header>
 
 <script>
-	function getCurrentTheme() {
-		return localStorage.getItem('theme');
-	}
-	const toggleDarkModeButton = document.getElementById('toggleDarkMode');
-
-	toggleDarkModeButton?.addEventListener('click', () => {
-		const toggleDarkModeEvent = new CustomEvent('theme-change', {
-			detail: { theme: getCurrentTheme() === 'light' ? 'dark' : 'light' }
-		});
-		document.dispatchEvent(toggleDarkModeEvent);
-	});
+	import '../../scripts/toggleTheme';
 </script>
