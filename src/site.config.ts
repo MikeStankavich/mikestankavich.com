@@ -7,7 +7,7 @@ export const siteConfig: SiteConfig = {
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
 	title: 'astro-resume-01',
 	// Meta property used as the default description meta property
-	description: 'The official astro.js resume theme',
+	description: 'Perfect, minimal resume theme with multiple configuration option, blog integration and custom stylings. Stand tall among competitors and launch your career into orbit with Astro.js Theme Resume. Explore the cosmos of possibilities for your professional future today!',
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: 'en-US',
 	// Meta property, found in src/components/BaseHead.astro L:42
