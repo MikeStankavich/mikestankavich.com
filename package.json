@@ -22,7 +22,7 @@
 		"@vercel/analytics": "^1.2.2",
 		"alpinejs": "^3.13.7",
 		"astro": "^4.4.15",
-		"astro-expressive-code": "^0.33.5",
+		"astro-expressive-code": "^0.35.0",
 		"astro-icon": "^1.1.0",
 		"clsx": "^2.1.0",
 		"mdast-util-to-string": "^4.0.0",
