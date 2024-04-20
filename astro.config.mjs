@@ -7,6 +7,8 @@ import icon from 'astro-icon';
 import { defineConfig } from 'astro/config';
 import { expressiveCodeOptions } from './src/site.config';
 import { remarkReadingTime } from './src/utils/remarkReadingTime.ts';
+import vercel from '@astrojs/vercel/serverless';
+
 const options = {
   // Specify the theme to use or a custom theme json, in our case
   // it will be a moonlight-II theme from
@@ -40,4 +42,8 @@ export default defineConfig({
     remarkPlugins: [remarkReadingTime]
   },
   prefetch: true,
+  output: 'server',
+  adapter: vercel({
+    webAnalytics: { enabled: true }
+  }),
 });
