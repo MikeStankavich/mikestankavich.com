@@ -8,6 +8,7 @@ import { defineConfig } from 'astro/config';
 import { expressiveCodeOptions } from './src/site.config';
 import { remarkReadingTime } from './src/utils/remarkReadingTime.ts';
 import vercel from '@astrojs/vercel/serverless';
+import yaml from '@rollup/plugin-yaml';
 
 const options = {
   // Specify the theme to use or a custom theme json, in our case
@@ -46,4 +47,7 @@ export default defineConfig({
   adapter: vercel({
     webAnalytics: { enabled: true }
   }),
+  vite: {
+    plugins: [yaml()],
+  },
 });

@@ -14,7 +14,7 @@ Explore the Astro.js Personal Blog Template – a sleek and feature-rich platfor
 
 ✨ **Showcase**: Showcase your Expert Areas, Experience, Education, Projects, Portfolio, Blogs, Skills and Tools with individual sections
 
-✨ **Low Code Customization**: No coding required - you can easily customize content and style by 30+ components and style variables
+✨ **Low Code Customization**: No coding required - you can easily customize content via yaml data file and style by 30+ components and style variables
 
 ✨ **Tailwind CSS Integration**: Easy to edit with light and dark mode
 
@@ -64,6 +64,7 @@ Inside of your Astro project, you'll see the following folders and files:
 |   ├── utils/
 |   ├── site.config.ts
 │   └── types.ts
+│   └── data.yaml // where you can change your cv data
 ├── .elintrc.cjs
 ├── .gitignore
 ├── .prettierignore
@@ -83,6 +84,7 @@ To edit site info such as site title and description, edit the `src/site.config.
 ### Page contents
 
 To edit the resume homepage content and design, edit the `src/pages/index.astro` file.
+To edit the cv data, open the src/data.yaml file and edit as you need.
 
 ### Page components
 

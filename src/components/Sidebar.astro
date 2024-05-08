@@ -4,6 +4,7 @@ import portrait from '../assets/portrait.png';
 import Card from './Card.astro';
 import IconText from './IconText.astro';
 import IconWrapper from './IconWrapper.astro';
+import data from '../data.yaml';
 ---
 
 <aside
@@ -18,25 +19,25 @@ import IconWrapper from './IconWrapper.astro';
 
 	<Card class="bg-background-tertiary mt-[-6rem] w-full max-w-[400px] p-5">
 		<div class="flex flex-col items-center gap-y-4 pb-10 pt-24">
-			<h1 class="text-3xl font-bold text-secondary-foreground">Lorem ipsum dolor</h1>
-			<h2 class="text-xl text-secondary-foreground">Position</h2>
+			<h1 class="text-3xl font-bold text-secondary-foreground">{data.name}</h1>
+			<h2 class="text-xl text-secondary-foreground">{data.position}</h2>
 
 			<div class="flex flex-row gap-x-4 pb-3 pt-1">
-				<a href="https://github.com" target="_blank" aria-label="github"><IconWrapper href="https://github.com" icon="github" classIcon="h-5 w-5" class="bg-accent-200" /></a>
-				<a href="https://linkedin.com" target="_blank" aria-label="linkedin"><IconWrapper href="https://linkedin.com" icon="linkedin" classIcon="h-5 w-5" class="bg-accent-200" /></a>
-				<a href="https://twitter.com" target="_blank" aria-label="twitter"><IconWrapper href="https://twitter.com" icon="twitter" classIcon="h-5 w-5" class="bg-accent-200" /></a>
+				<a href={data.github} target="_blank" aria-label="github"><IconWrapper href="https://github.com" icon="github" classIcon="h-5 w-5" class="bg-accent-200" /></a>
+				<a href={data.linkedin} target="_blank" aria-label="linkedin"><IconWrapper href="https://linkedin.com" icon="linkedin" classIcon="h-5 w-5" class="bg-accent-200" /></a>
+				<a href={data.twitter} target="_blank" aria-label="twitter"><IconWrapper href="https://twitter.com" icon="twitter" classIcon="h-5 w-5" class="bg-accent-200" /></a>
 				<a href="/rss.xml" target="_blank" aria-label="rss"><IconWrapper href="/rss.xml" icon="rss" classIcon="h-5 w-5" class="bg-accent-200" /></a>
 			</div>
 			<Card
 				class="bg-background-secondary flex w-full flex-col gap-x-7 gap-y-1 p-5 text-secondary-foreground"
 			>
-				<IconText title="Phone" subTitle="+491235234" icon="phone" />
+				<IconText title="Phone" subTitle={data.phone} icon="phone" />
 				<div class="border-t border-border"></div>
-				<IconText title="Email" subTitle="max@mustermann.com" icon="mail" />
+				<IconText title="Email" subTitle={data.email} icon="mail" />
 				<div class="border-t border-border"></div>
-				<IconText title="Location" subTitle="Berlin" icon="location" />
+				<IconText title="Location" subTitle={data.location} icon="location" />
 				<div class="border-t border-border"></div>
-				<IconText title="Birthday" subTitle="10th July 1995" icon="cake" />
+				<IconText title="Birthday" subTitle={data.birthday} icon="cake" />
 			</Card>
 		</div>
 
