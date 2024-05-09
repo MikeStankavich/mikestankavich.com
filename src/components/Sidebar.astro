@@ -30,11 +30,18 @@ import IconWrapper from './IconWrapper.astro';
 			<Card
 				class="bg-background-secondary flex w-full flex-col gap-x-7 gap-y-1 p-5 text-secondary-foreground"
 			>
-				<IconText title="Schedule a Call" subTitle="Calendly link" icon="phone" />
+				<a href="https://calendly.com/mike-stankavich/30min" target="_blank" aria-label="">
+  				<IconText title="Schedule a Call" subTitle="Calendly" icon="phone" />
+				</a>
 				<div class="border-t border-border"></div>
-				<IconText title="Send a Message" subTitle="Contact form link" icon="mail" />
+				<a href="mailto:mike@stankavich.com" target="_blank" aria-label="">
+				  <IconText title="Send a Message" subTitle="mike@stankavich.com" icon="mail" />
+				</a>
 				<div class="border-t border-border"></div>
-				<IconText title="Location" subTitle="Austin Texas USA" icon="location" />
+
+				<a href="https://maps.app.goo.gl/uwQDDLgBeevquvq89" target="_blank" aria-label="">
+					<IconText title="Location" subTitle="Austin Texas USA" icon="location" />
+				</a>
 			</Card>
 		</div>
 

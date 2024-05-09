@@ -23,7 +23,7 @@ summary: >
   optimizing operational efficiency.
 experience:
   - title: Principal Engineer
-    company: JACKSON PEAK LLC (Self-employed)
+    company: Jackson Peak LLC (Self-employed)
     location: Austin, TX USA
     dateRange: Mar 2015 - Present
     description:
@@ -50,7 +50,7 @@ experience:
       - Strategized and executed the migration of enterprise databases to public cloud platforms such as AWS DocumentDB and Aurora, overseeing the architectural strategy and implementation, which included end-of-life management for on-prem systems and enhanced enterprise application support through improved cloud capabilities- Managed and supported legacy MongoDB environments while building cloud resource management tools with Terraform - Strategized and executed the migration of enterprise databases to public cloud platforms such as AWS DocumentDB and Aurora, overseeing the architectural strategy and implementation, which included end-of-life management for on-prem systems and enhanced enterprise application support through improved cloud capabilities
       #Skills: Amazon Web Services (AWS) · MongoDB · GitHub · Terraform · Shell ScriptingSkills: Amazon Web Services (AWS) · MongoDB · GitHub · Terraform · Shell Scripting
   - title: Senior Solutions Architect
-    company: EZCORP (Contract)
+    company: EZCorp (Contract)
     location: Austin, TX USA (Hybrid)
     dateRange: Mar 2019 - Jan 2020
     description:
