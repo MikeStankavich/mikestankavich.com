@@ -1,109 +1,212 @@
 ---
 
-name: Lorem ipsum dolor
-position: Position
-email: email@mail.com
-phone: +49 12345 12345
-website: google.de
-linkedin: https://linkedin.com/
-github: https://github.com/
-twitter: https://twitter.com/
-location: Berlin, Germany
-birthday: 10th July 1980
+name: Mike Stankavich
+title: Principal DevOps Engineer & Software Developer / Strategic International Technical Solutions Leader
+email: mike@stankavich.com
+phone: +1 503-593-2224
+website: https://mikestankavich.com
+linkedin: https://linkedin.com/in/mikestankavich
+github: https://github.com/MikeStankavich
+twitter: https://twitter.com/MikeStankavich
+location: Austin TX USA
 summary: >
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis atque quia omnis consectetur, voluptas praesentium veniam blanditiis ratione asperiores accusantium laborum odit commodi quis deserunt incidunt et dolor iure ut! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+  Accomplished Principal DevOps Engineer and Strategic International Technical 
+  Solutions Leader with over 20 years of experience. Expertise spans designing, 
+  developing, and implementing scalable software solutions, managing complex 
+  data projects, and overseeing cloud platforms. Proficient in database 
+  modeling and systems security, with a track record of providing comprehensive 
+  deliverables aligned with business objectives. Skilled in network engineering, 
+  system administration, and directing large-scale IT initiatives for Fortune 
+  100 companies. Exceptional communicator with cross-functional teams, and known
+  for translating technical concepts into accessible language for diverse 
+  audiences internationally. Committed to delivering tangible value and 
+  optimizing operational efficiency.
 experience:
-  - title: Lorem Ipsum
-    company: amet consectetur adipisicing
-    location: Berlin, Germany
-    dateRange: June 2021 - Jan 2024
+  - title: Principal Engineer
+    company: Jackson Peak LLC (Self-employed)
+    location: Austin, TX USA
+    dateRange: Mar 2015 - Present
     description:
-      - Lorem, ipsum dolor sit amet consectetur adipisicing elit!
-      - Lorem, ipsum dolor sit amet consectetur adipisicing elit!
-  - title: Lorem Ipsum
-    company: amet consectetur adipisicing
-    location: Berlin, Germany
-    dateRange: June 2021 - Jan 2024
+      - Owner and principal engineer, delivering IT consulting services and developing custom applications for various clients
+      - Led the design and build of SwiftID, a cloud-native RFID data collection platform, and architected microservices for a .NET-based SaaS application hosted on AWS
+      - Created a cryptocurrency secure node hosting service and led an offshore team to develop an RFID geofencing app, highlighting my flexibility in handling diverse technological projects- Owner and principal engineer, delivering IT consulting services and developing custom applications for various clients - Led the design and build of SwiftID, a cloud-native RFID data collection platform, and architected microservices for a .NET-based SaaS application hosted on AWS - Created a cryptocurrency secure node hosting service and led an offshore team to develop an RFID geofencing app, highlighting my flexibility in handling diverse technological projects
+    #Skills: Docker Products · Internet of Things (IoT) · PostgreSQL · JavaScript · Amazon Web Services (AWS)Skills: Docker Products · Internet of Things (IoT) · PostgreSQL · JavaScript · Amazon Web Services (AWS)
+  - title: Senior Cloud Infrastructure Engineer
+    company: Enigma Technologies, Inc (Contract)
+    location: New York, NY USA (Remote)
+    dateRange: Sep 2022 - Dec 2023
     description:
-      - Lorem, ipsum dolor sit amet consectetur adipisicing elit!
-      - Lorem, ipsum dolor sit amet consectetur adipisicing elit!
-education:
-  - title: Lorem Ipsum
-    company: amet consectetur adipisicing
-    location: Berlin, Germany
-    dateRange: June 2021 - Jan 2024
+      - Led the cloud infrastructure build and deployment for a key financial sanctions screening SaaS product, enhancing Go-To-Market (GTM) transformation efforts
+      - Designed and maintained software release mechanisms across cloud and on-prem environments, significantly accelerating project timelines and ensuring strong security from design through deployment
+      - Rearchitected GitLab CI/CD, enhanced developer workflows, and implemented DevSecOps practices
+      - Managed the entire roadmap, ensuring that infrastructure enhancements aligned with business objectives- Led the cloud infrastructure build and deployment for a key financial sanctions screening SaaS product, enhancing Go-To-Market (GTM) transformation efforts - Designed and maintained software release mechanisms across cloud and on-prem environments, significantly accelerating project timelines and ensuring strong security from design through deployment - Rearchitected GitLab CI/CD, enhanced developer workflows, and implemented DevSecOps practices - Managed the entire roadmap, ensuring that infrastructure enhancements aligned with business objectives
+      #Skills: Terraform · Gitlab · Amazon Web Services (AWS) · Python (Programming Language) · Amazon ECSSkills: Terraform · Gitlab · Amazon Web Services (AWS) · Python (Programming Language) · Amazon ECS
+  - title:
+    company: PIMCO (Contract)
+    location: Irvine, CA USA (Remote)
+    dateRange: May 2020 - Apr 2021
     description:
-      - Lorem, ipsum dolor sit amet consectetur adipisicing elit!
-      - Lorem, ipsum dolor sit amet consectetur adipisicing elit!
-  - title: Lorem Ipsum
-    company: amet consectetur adipisicing
-    location: Berlin, Germany
-    dateRange: June 2021 - Jan 2024
+      - Managed and supported legacy MongoDB environments while building cloud resource management tools with Terraform
+      - Strategized and executed the migration of enterprise databases to public cloud platforms such as AWS DocumentDB and Aurora, overseeing the architectural strategy and implementation, which included end-of-life management for on-prem systems and enhanced enterprise application support through improved cloud capabilities- Managed and supported legacy MongoDB environments while building cloud resource management tools with Terraform - Strategized and executed the migration of enterprise databases to public cloud platforms such as AWS DocumentDB and Aurora, overseeing the architectural strategy and implementation, which included end-of-life management for on-prem systems and enhanced enterprise application support through improved cloud capabilities
+      #Skills: Amazon Web Services (AWS) · MongoDB · GitHub · Terraform · Shell ScriptingSkills: Amazon Web Services (AWS) · MongoDB · GitHub · Terraform · Shell Scripting
+  - title: Senior Solutions Architect
+    company: EZCorp (Contract)
+    location: Austin, TX USA (Hybrid)
+    dateRange: Mar 2019 - Jan 2020
     description:
-      - Lorem, ipsum dolor sit amet consectetur adipisicing elit!
-      - Lorem, ipsum dolor sit amet consectetur adipisicing elit!
-projects:
-  - title: Lorem Ipsum
-    description: amet consectetur adipisicing
-    href: https://google.de
-    imagePath: /src/assets/coming-soon.png
-  - title: Lorem Ipsum
-    description: amet consectetur adipisicing
-    href: https://google.de
-    imagePath: /src/assets/coming-soon.png
+      - Integrated a new business initiative alt banking app with a legacy POS and pawn loan management system, designing and implementing a node.js-based REST API
+      - Gathered requirements, designed solutions, and led cross-functional teams to resolve issues, which contributed to the successful rollout of the new app across US stores- Integrated a new business initiative alt banking app with a legacy POS and pawn loan management system, designing and implementing a node.js-based REST API - Gathered requirements, designed solutions, and led cross-functional teams to resolve issues, which contributed to the successful rollout of the new app across US stores
+      #Skills: Microsoft Azure · JavaScript · Java · Ansible · TerraformSkills: Microsoft Azure · JavaScript · Java · Ansible · Terraform
+  - title: Senior DevOps & Data Engineer
+    company: Sharada Capital Management, LLC
+    location: Chicago, IL USA (Remote)
+    dateRange: Jul 2016 - Mar 2019
+    description:
+      - Assumed responsibility for developing the private cloud infrastructure from offshore developers
+      - Designed and built out infrastructure-as-code automation stack on VMWare and LXD using Terraform, Ansible, Vagrant, TestInfra, custom Python tooling and shell scripts- Assumed responsibility for developing the private cloud infrastructure from offshore developers - Designed and built out infrastructure-as-code automation stack on VMWare and LXD using Terraform, Ansible, Vagrant, TestInfra, custom Python tooling and shell scripts
+      #Skills: VMware vSphere · Ansible · Terraform · Shell Scripting · Python (Programming Language)Skills: VMware vSphere · Ansible · Terraform · Shell Scripting · Python (Programming Language)
+  - title: Senior Data Engineer
+    company: Qlinary (Contract)
+    location: Chino Hills, CA USA (Remote)
+    dateRange: Apr 2015 - May 2016
+    description:
+      - Owned data modeling, designed schema, built database migrations, and wrote complex database functions to handle recipe costing and other performance sensitive functions
+      - Directed, managed and facilitated AWS architecture and automation
+      - Set-up multiple environment-specific VPCs with OpenVPN bastion host and OpsWorks stack with custom Chef recipes for web/application build, full text search, and database server instances Collaborated with backend development on Java Play Framework and Solr development and server administration as needed- Owned data modeling, designed schema, built database migrations, and wrote complex database functions to handle recipe costing and other performance sensitive functions - Directed, managed and facilitated AWS architecture and automation - Set-up multiple environment-specific VPCs with OpenVPN bastion host and OpsWorks stack with custom Chef recipes for web/application build, full text search, and database server instances Collaborated with backend development on Java Play Framework and Solr development and server administration as needed
+      #Skills: Continuous Integration and Continuous Delivery (CI/CD) · JavaScriptSkills: Continuous Integration and Continuous Delivery (CI/CD) · JavaScript
+  - title: Senior Database Architect
+    company: Certain, Inc.
+    location: San Francisco, CA USA
+    dateRange: Aug 2013 - Nov 2014
+    description:
+      - Championed a migration from SQL Server to Postgres, leading the database portion
+      - Designed and built the schema and database code to migrate to Postgres, built parallel deployments for both platforms for releases, and constructed a cutover process to load data into Postgres.
+      - Worked on SQL Server data modeling and performance tuning, including intervention in Java and ColdFusion backends
+      - Translated ASCII to Unicode migration planning and coding, designing and developing script to automatically copy every table definition to new database, change data types, copy over data and remaining schema objects- Championed a migration from SQL Server to Postgres, leading the database portion - Designed and built the schema and database code to migrate to Postgres, built parallel deployments for both platforms for releases, and constructed a cutover process to load data into Postgres. - Worked on SQL Server data modeling and performance tuning, including intervention in Java and ColdFusion backends - Translated ASCII to Unicode migration planning and coding, designing and developing script to automatically copy every table definition to new database, change data types, copy over data and remaining schema objects
+      #Skills: JavaScript · Amazon Web Services (AWS) · Microsoft SQL Server · PostgreSQL · JavaSkills: JavaScript · Amazon Web Services (AWS) · Microsoft SQL Server · PostgreSQL · Java
+  - title: Database Architect/Senior Consultant
+    company: Intel Corporation
+    location: Penang, Malaysia
+    dateRange: Sep 2011 - Jul 2013
+    description:
+      - Led data architecture updates for major revamp of Intel excursion management system on Microsoft SQL Server, ASP/ASP.NET platform- Led data architecture updates for major revamp of Intel excursion management system on Microsoft SQL Server, ASP/ASP.NET platform
+      #Skills: Microsoft SQL Server · Data Modeling · ASP.NET · C#Skills: Microsoft SQL Server · Data Modeling · ASP.NET · C#
+  - title: Data Architect, Database & Reporting Manager
+    company: Deutsche Bank
+    location: Manila, Philippines
+    dateRange: Sep 2010 - Aug 2011
+    description:
+      - Oversaw 12 Direct Reports
+      - Provided database design and implementation guidance to technical and business analysts during project design phase
+      - Recommended infrastructure configuration for maximum application performance and reliability
+      - Performance tuned database and application bottlenecks
+      #Skills: BPMN · Business Process Outsourcing (BPO) · Oracle · JavaSkills: BPMN · Business Process Outsourcing (BPO) · Oracle · Java
+#Intel Corporation logo
+#DBA, Modeler, System Analyst & Senior Programmer
+  - title: DBA, Modeler, System Analyst & Senior Programmer
+    company: Intel Corporation
+    location: Hillsboro, OR USA
+    dateRange: Apr 1999 - Aug 2010
+    description:
+      - Collaborated with network engineering to move production servers into a secure enclave DMZ network
+      - Migrated production server environment and data from Hillsboro, OR, to Folsom, CA, moved DR hot site
+      - Deployed and supported horizontally partitioned replica at Malaysia outsource partner site
+      - Managed data model and change control process – designed and modeled schema for complex product data management and issue tracking system containing thousands of tables and views across multiple databases
+      - Optimized, modeled, and approved changes submitted by other developers
+      - Worked extensively with multinational teams from Malaysia, the Philippines, and India – led and participated in cross-geo projects- Collaborated with network engineering to move production servers into a secure enclave DMZ network - Migrated production server environment and data from Hillsboro, OR, to Folsom, CA, moved DR hot site - Deployed and supported horizontally partitioned replica at Malaysia outsource partner site - Managed data model and change control process – designed and modeled schema for complex product data management and issue tracking system containing thousands of tables and views across multiple databases - Optimized, modeled, and approved changes submitted by other developers - Worked extensively with multinational teams from Malaysia, the Philippines, and India – led and participated in cross-geo projects
+      #Skills: Microsoft SQL Server · JavaScript · Data Modeling · IT Infrastructure Management · SSIS
 skills:
   Infrastructure:
     - Terraform
+    - Vagrant
     - Packer
+    - cloud-init
+    - OpsWorks
   Blockchain:
     - Bitcoin
     - Ethereum
+    - Horizen
+    - web3
+    - defi
   Configuration Management:
     - Ansible
+    - Testinfra
     - Chef
-    - Helm
+    - Test Kitchen
   Virtualization & Containers:
     - Docker
     - Portainer
+    - VMWare
+    - vSphere
+    - Parallels
+    - LXD
+    - kvm
     - Kubernetes
   CI/CD & SCM:
     - GitHub Actions
     - Gitlab CI/CD
     - Jenkins
     - git
+    - svn
   Web & App Servers:
     - Apache
     - Tomcat
     - nginx
+    - IIS
+    - haproxy
   Frameworks:
     - Express
+    - Restify
     - React
     - Django
+    - Flask
+    - Play framework
+    - ASP.NET
     - Ionic
   Database Servers:
     - PostgreSQL
     - MongoDB
+    - SQL Server
     - Oracle
+    - MySQL
   ETL & Integration:
     - SSIS
+    - Tibco
+    - MSMQ
     - Informatica
   Languages:
     - JavaScript
     - Python
+    - SQL
+    - Java
+    - Go
+    - C/C++
+    - C#
     - Ruby
+    - PHP
     - Rust
   Scripting & Shell:
     - Bash
     - Python
     - PowerShell
+    - DOS
   Cloud Providers:
     - AWS
     - Azure
     - GCP
+    - Vultr
+    - Digital Ocean
+    - Hetzner
+    - OVH
   Operating Systems:
     - Ubuntu
+    - CentOS
+    - Mac OS
+    - Windows
+    - Windows Server
     - Redhat
     - Debian
+    - VMWare ESX
   Networking:
     - TCP/IP
     - DNS
@@ -111,20 +214,40 @@ skills:
     - VPN
     - VLAN
     - BGP
+    - SDN
+    - IPv6
+    - BigIP
+    - Secure Enclave
+    - DMZ
+    - WireGuard
+    - OpenVPN
 certifications:
-  - issuer: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta magni consequuntur corrupti.
-    name: "Lorem ipsum dolor sit amet consectetur adipisicing elit"
-    issued: Jun 2023
-    href: https://google.de
-  - issuer: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta magni consequuntur corrupti.
-    name: "Lorem ipsum dolor sit amet consectetur adipisicing elit"
-    issued: Jun 2023
-    href: https://google.de
-  - issuer: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta magni consequuntur corrupti.
-    name: "Lorem ipsum dolor sit amet consectetur adipisicing elit"
-    issued: Jun 2023
-    href: https://google.de
-  - issuer: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta magni consequuntur corrupti.
-    name: "Lorem ipsum dolor sit amet consectetur adipisicing elit"
-    issued: Jun 2023
-    href: https://google.de
+  - issuer: Microsoft
+    name: "Microsoft Certified IT Professional: Database Administrator 2008 (MCITP)"
+    issued: Jun 2010
+  - issuer: Microsoft
+    name: "Microsoft Certified Technology Specialist: SQL Server 2008, Implementation and Maintenance (MCTS)"
+    issued: Jun 2010
+  - issuer: ISC2
+    name: Certified Information Systems Security Professional (CISSP)
+    issued: May 2010
+    expired: May 2013
+  - issuer: APICS
+    name: Certified Supply Chain Professional (CSCP)
+    issued: Mar 2009
+    expired: Dec 2013
+  - issuer: Microsoft
+    name: "Microsoft Certified Application Developer: Microsoft .NET (MCAD)"
+    issued: Jun 2008
+  - issuer: Microsoft
+    name: "Microsoft Certified Solution Developer: Microsoft .NET (MCSD)"
+    issued: Jun 2008
+  - issuer: Microsoft
+    name: "Microsoft Certified Systems Administrator: Windows Server 2003 (MCSA)"
+    issued: May 2008
+  - issuer: Microsoft
+    name: "Microsoft Certified Systems Engineer: Windows Server 2003 (MCSE)"
+    issued: May 2008
+  - issuer: Microsoft
+    name: "Microsoft Certified Database Administrator: Microsoft SQL Server 2000 (MCDBA)"
+    issued: Jan 2008
