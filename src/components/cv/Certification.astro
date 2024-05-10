@@ -1,11 +1,12 @@
 ---
 import Card from "../Card.astro";
 import Section from "../Section.astro";
-import cvData from './cvData.yaml';
+import data from '../../data.yaml';
+import { Cert } from "@/types";
 
 ---
 <Section title="Certifications">
-    {cvData.certifications.map(cert =>
+    {data.certifications.map((cert: Cert) =>
         <Card
             class="bg-background-secondary flex w-full flex-col gap-x-7 gap-y-1 p-5 text-secondary-foreground"
             as="a"
@@ -13,7 +14,7 @@ import cvData from './cvData.yaml';
             subheading={cert.name}
             date={cert.issued}
             altText="Lorem, ipsum dolor sit"
-            href={cert.url}
+            href={cert.href}
         />
     )}
 </Section>
