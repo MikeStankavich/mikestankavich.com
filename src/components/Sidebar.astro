@@ -1,8 +1,10 @@
 ---
 import { Image } from 'astro:assets';
+// import Modal from '@xexiu/astro-modal';
 import portrait from '../assets/portrait_mike_stankavich.png';
 import Card from './Card.astro';
 import IconText from './IconText.astro';
+import IconTextEmail from './IconTextEmail.astro';
 import IconWrapper from './IconWrapper.astro';
 import data from '../data.yaml';
 ---
@@ -38,8 +40,27 @@ import data from '../data.yaml';
   				<IconText title="Schedule a Call" subTitle="Calendly" icon="phone" />
 				</a>
 				<div class="border-t border-border"></div>
-				<a href="mailto:mike@stankavich.com" target="_blank" aria-label="">
-				  <IconText title="Send a Message" subTitle="mike@stankavich.com" icon="mail" />
+				<a href="mailto:%6D%69%6B%65%40%73%74%61%6E%6B%61%76%69%63%68%2E%63%6F%6D" target="_blank" aria-label="">
+				  <IconTextEmail title="Send a Message" subTitle="mike@stankavich.com" icon="mail" />
+
+					<!--todo: get contact form modal working-->
+					<!--<Modal id="myAwsomeModal" ariaLabel="Share on social" btnCloseAriaLabel="Close Modal">-->
+					<!--	<div slot="open-modal-button">Open Modal</div>-->
+
+					<!--	<h2 slot="modal-title">Modal Title</h2>-->
+
+					<!--	<div slot="modal-main">-->
+					<!--		<h4>Modal Main</h4>-->
+					<!--		<p>-->
+					<!--			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nesciunt-->
+					<!--			placeat officia, aliquid enim corrupti error repellat iusto corporis-->
+					<!--			commodi ad natus ratione aut iure nisi deserunt soluta quam iste!-->
+					<!--		</p>-->
+					<!--	</div>-->
+
+					<!--	<div slot="modal-footer">Modal Footer</div>-->
+					<!--</Modal>-->
+
 				</a>
 				<div class="border-t border-border"></div>
 
@@ -50,7 +71,7 @@ import data from '../data.yaml';
 		</div>
 
 		<a
-			href="/cv-download.pdf"
+			href="/Mike Stankavich Resume 2024-Q2-r3.pdf"
 			target="_blank"
 			class="bg-accent-200 hover:shadow-background-tertiary/40 flex flex-row items-center justify-center gap-x-3 rounded-3xl px-4 py-2 text-sm transition-all hover:shadow-md dark:shadow-black/50 hover:dark:shadow-white/30"
 		>

@@ -1,0 +1,24 @@
+---
+import { cn } from '@/utils';
+import IconWrapper from './IconWrapper.astro';
+
+const { class: className, title, href, subTitle, icon } = Astro.props;
+const emailName = subTitle.split("@")[0];
+const emailDomain = subTitle.split("@")[1];
+const emailTLD = emailDomain.split(".")[1];
+const emailSLD = emailDomain.split(".")[0];
+---
+
+<div
+	class={cn(
+		className,
+		'flex flex-row items-center gap-x-2',
+		href && 'hover:opacity-75 transition-all'
+	)}
+>
+	<IconWrapper icon={icon} classIcon="h-5 w-5" class="bg-background-tertiary"/>
+	<div class="flex flex-col">
+		<span class="text-xs uppercase text-accent-200">{title}</span>
+		<span class="font-bold dark:text-white email">{emailName}@{emailSLD}<b>.{emailSLD}</b>.{emailTLD}</span>
+	</div>
+</div>

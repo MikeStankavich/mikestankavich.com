@@ -60,3 +60,7 @@
 .anchor {
     scroll-margin-top: calc(var(--h-header) + 2.5em);
 }
+
+span.email b {
+	display: none;
+}
