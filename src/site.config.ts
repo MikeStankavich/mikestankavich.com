@@ -1,8 +1,8 @@
 import type { SiteConfig } from '@/types'
 import type { AstroExpressiveCodeOptions } from 'astro-expressive-code'
 
-// todo: move these constants to the data.yaml along with other user data
 export const siteConfig: SiteConfig = {
+	// todo: move these constants to the data.yaml along with other user data
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
 	author: 'Mike Stankavich',
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
