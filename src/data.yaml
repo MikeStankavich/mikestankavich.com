@@ -26,9 +26,13 @@ summary: >
 education:
   - company: Thomas Edison State University
     title: BSBA, Computer Information Systems
-    dateRange: 2008 - 2009
+    dateRange: Sep 2007 - Jun 2008
     description:
-      - Completed bachelor's degree in under a year while working full-time
+      - >
+          Completed degree in 9 months while working a full time job. See my story at
+          <a href="https://personalmba.com/hacking-higher-education-mike-stankavich/" target="_blank">
+              https://personalmba.com/hacking-higher-education-mike-stankavich/
+          </a>
 projects: []
 experience:
   - title: Principal Engineer
