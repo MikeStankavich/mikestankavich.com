@@ -1,0 +1,68 @@
+body {
+  font-size: 80%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Remove the flex display which isn't working well in PDF context */
+div {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Use absolute positioning for right-aligned elements */
+.header-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.header-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Clear floats */
+.clearfix {
+  position: relative;
+  width: 100%;
+  height: 1.5em; /* Add specific height to accommodate the absolute positioning */
+  margin: 0;
+  padding: 0;
+}
+
+/* Contact info section */
+.contact-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.contact-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Add some space after the header sections */
+hr {
+  margin: 1em 0;
+}
+
+/* Adjust list styling */
+ul {
+  padding-left: 1.5em;
+}
+
+/* Ensure proper paragraph spacing */
+p {
+  margin: 0.5em 0;
+}
