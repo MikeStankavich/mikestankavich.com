@@ -68,7 +68,6 @@ I have a track record of guiding projects from initial customer discussions thro
 * Engaged with multinational teams from Malaysia, the Philippines, and India, contributing to cross-geographical projects and providing expertise in data modeling and optimization  
 * Served as incident commander for supply chain apps section, led on-call transition to follow-the-sun support model
 
-		 	 	 		  
 **VP Database and Reporting Manager** - Deutsche Bank, Manila, Philippines (2010-2011, full time)	
 
 * Managed Oracle data backend development and Cognos reporting development team with 12 direct reports for BPMS workflow system used by several thousand agents in Philippines and India BPO centers

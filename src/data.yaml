@@ -1,7 +1,7 @@
 ---
 
 name: Mike Stankavich
-title: Principal DevOps Engineer & Software Developer / Strategic International Technical Solutions Leader
+title: Senior DevOps Engineer and Technical Leader with 20+ years of experience
 email: mike@stankavich.com
 phone: +1 503-593-2224
 website: https://mikestankavich.com
@@ -10,19 +10,10 @@ github: https://github.com/MikeStankavich
 twitter: https://twitter.com/MikeStankavich
 location: Austin TX USA
 summary: >
-  Accomplished Principal DevOps Engineer and Strategic International Technical 
-  Solutions Leader with over 20 years of experience. Expertise spans designing, 
-  developing, and implementing scalable software solutions, managing complex 
-  data projects, and overseeing cloud platforms. Proficient in database 
-  modeling and systems security, with a track record of providing comprehensive 
-  deliverables aligned with business objectives. Skilled in network engineering, 
-  system administration, and directing large-scale IT initiatives for Fortune 
-  100 companies. Exceptional communicator with cross-functional teams, and known
-  for translating technical concepts into accessible language for diverse 
-  audiences internationally. Committed to delivering tangible value and 
-  optimizing operational efficiency. Worked fully remote since 2015. Strongly prefer 
-  to stay with remote, but will consider hybrid or on-site roles if the role is 
-  otherwise compelling. Will relocate anywhere in the world if the price is right.
+  Senior DevOps Engineer and Technical Leader with 20+ years of experience.
+  I combine hands-on technical skills with leadership experience to deliver successful projects from initial planning 
+  through implementation. I have a track record of guiding projects from initial customer discussions through 
+  successful delivery, ensuring that solutions meet both technical and business needs.
 education:
   - company: Thomas Edison State University
     title: BSBA, Computer Information Systems
@@ -34,100 +25,52 @@ education:
               https://personalmba.com/hacking-higher-education-mike-stankavich/
           </a>
 projects: []
+
 experience:
-  - title: Principal Engineer
-    company: Jackson Peak LLC (Self-employed)
-    location: Austin, TX USA
-    dateRange: Mar 2015 - Present
+  - title: Principal Consultant/Owner
+    company: DevOps To AI LLC
+    location: Austin, Texas USA (Remote)
+    dateRange: 2014 - Present
     description:
-      - Owner and principal engineer, delivering IT consulting services and developing custom applications for various clients
-      - Led the design and build of SwiftID, a cloud-native RFID data collection platform, and architected microservices for a .NET-based SaaS application hosted on AWS
-      - Created a cryptocurrency secure node hosting service and led an offshore team to develop an RFID geofencing app, highlighting my flexibility in handling diverse technological projects- Owner and principal engineer, delivering IT consulting services and developing custom applications for various clients - Led the design and build of SwiftID, a cloud-native RFID data collection platform, and architected microservices for a .NET-based SaaS application hosted on AWS - Created a cryptocurrency secure node hosting service and led an offshore team to develop an RFID geofencing app, highlighting my flexibility in handling diverse technological projects
-    #Skills: Docker Products · Internet of Things (IoT) · PostgreSQL · JavaScript · Amazon Web Services (AWS)Skills: Docker Products · Internet of Things (IoT) · PostgreSQL · JavaScript · Amazon Web Services (AWS)
-  - title: Senior Cloud Infrastructure Engineer
-    company: Enigma Technologies, Inc (Contract)
-    location: New York, NY USA (Remote)
-    dateRange: Sep 2022 - Dec 2023
-    description:
-      - Led the cloud infrastructure build and deployment for a key financial sanctions screening SaaS product, enhancing Go-To-Market (GTM) transformation efforts
-      - Designed and maintained software release mechanisms across cloud and on-prem environments, significantly accelerating project timelines and ensuring strong security from design through deployment
-      - Rearchitected GitLab CI/CD, enhanced developer workflows, and implemented DevSecOps practices
-      - Managed the entire roadmap, ensuring that infrastructure enhancements aligned with business objectives- Led the cloud infrastructure build and deployment for a key financial sanctions screening SaaS product, enhancing Go-To-Market (GTM) transformation efforts - Designed and maintained software release mechanisms across cloud and on-prem environments, significantly accelerating project timelines and ensuring strong security from design through deployment - Rearchitected GitLab CI/CD, enhanced developer workflows, and implemented DevSecOps practices - Managed the entire roadmap, ensuring that infrastructure enhancements aligned with business objectives
-      #Skills: Terraform · Gitlab · Amazon Web Services (AWS) · Python (Programming Language) · Amazon ECSSkills: Terraform · Gitlab · Amazon Web Services (AWS) · Python (Programming Language) · Amazon ECS
-  - title:
-    company: PIMCO (Contract)
-    location: Irvine, CA USA (Remote)
-    dateRange: May 2020 - Apr 2021
-    description:
-      - Managed and supported legacy MongoDB environments while building cloud resource management tools with Terraform
-      - Strategized and executed the migration of enterprise databases to public cloud platforms such as AWS DocumentDB and Aurora, overseeing the architectural strategy and implementation, which included end-of-life management for on-prem systems and enhanced enterprise application support through improved cloud capabilities- Managed and supported legacy MongoDB environments while building cloud resource management tools with Terraform - Strategized and executed the migration of enterprise databases to public cloud platforms such as AWS DocumentDB and Aurora, overseeing the architectural strategy and implementation, which included end-of-life management for on-prem systems and enhanced enterprise application support through improved cloud capabilities
-      #Skills: Amazon Web Services (AWS) · MongoDB · GitHub · Terraform · Shell ScriptingSkills: Amazon Web Services (AWS) · MongoDB · GitHub · Terraform · Shell Scripting
-  - title: Senior Solutions Architect
-    company: EZCorp (Contract)
-    location: Austin, TX USA (Hybrid)
-    dateRange: Mar 2019 - Jan 2020
-    description:
-      - Integrated a new business initiative alt banking app with a legacy POS and pawn loan management system, designing and implementing a node.js-based REST API
-      - Gathered requirements, designed solutions, and led cross-functional teams to resolve issues, which contributed to the successful rollout of the new app across US stores- Integrated a new business initiative alt banking app with a legacy POS and pawn loan management system, designing and implementing a node.js-based REST API - Gathered requirements, designed solutions, and led cross-functional teams to resolve issues, which contributed to the successful rollout of the new app across US stores
-      #Skills: Microsoft Azure · JavaScript · Java · Ansible · TerraformSkills: Microsoft Azure · JavaScript · Java · Ansible · Terraform
-  - title: Senior DevOps & Data Engineer
-    company: Sharada Capital Management, LLC
-    location: Chicago, IL USA (Remote)
-    dateRange: Jul 2016 - Mar 2019
-    description:
-      - Assumed responsibility for developing the private cloud infrastructure from offshore developers
-      - Designed and built out infrastructure-as-code automation stack on VMWare and LXD using Terraform, Ansible, Vagrant, TestInfra, custom Python tooling and shell scripts- Assumed responsibility for developing the private cloud infrastructure from offshore developers - Designed and built out infrastructure-as-code automation stack on VMWare and LXD using Terraform, Ansible, Vagrant, TestInfra, custom Python tooling and shell scripts
-      #Skills: VMware vSphere · Ansible · Terraform · Shell Scripting · Python (Programming Language)Skills: VMware vSphere · Ansible · Terraform · Shell Scripting · Python (Programming Language)
-  - title: Senior Data Engineer
-    company: Qlinary (Contract)
-    location: Chino Hills, CA USA (Remote)
-    dateRange: Apr 2015 - May 2016
-    description:
-      - Owned data modeling, designed schema, built database migrations, and wrote complex database functions to handle recipe costing and other performance sensitive functions
-      - Directed, managed and facilitated AWS architecture and automation
-      - Set-up multiple environment-specific VPCs with OpenVPN bastion host and OpsWorks stack with custom Chef recipes for web/application build, full text search, and database server instances Collaborated with backend development on Java Play Framework and Solr development and server administration as needed- Owned data modeling, designed schema, built database migrations, and wrote complex database functions to handle recipe costing and other performance sensitive functions - Directed, managed and facilitated AWS architecture and automation - Set-up multiple environment-specific VPCs with OpenVPN bastion host and OpsWorks stack with custom Chef recipes for web/application build, full text search, and database server instances Collaborated with backend development on Java Play Framework and Solr development and server administration as needed
-      #Skills: Continuous Integration and Continuous Delivery (CI/CD) · JavaScriptSkills: Continuous Integration and Continuous Delivery (CI/CD) · JavaScript
+      - "2024-2024 (project) - Principal Cloud Data Solutions Architect at SNF Metrics (medical analytics SaaS): Delivered deep dive technical assessment of cloud resources including application and data layers. Provided scaling and availability recommendations, presented to CEO and board."
+      - "2022-2023 (contract) - Senior Cloud Infrastructure Engineer at Enigma (fintech SaaS): Refactored repo-per-service Terraform IaC and Gitlab CI/CD to monorepo to support transition from single tenant to multi-tenant for a go to market effort. Split multi-environment Terraform states into state-per-environment. Optimized developer tooling for local development and docker builds for smaller container size and faster builds."
+      - "2020-2021 (contract) - Senior Solutions Architect at EZCorp (large pawnshop chain): Designed integration between on-prem legacy pawn loan management system and customer facing reloadable debit card cloud application hosted on AWS. Built out solution with node.js and deployed it to Azure."
+      - "2019-2020 (contract) - Senior Cloud Data Platform Engineer at PIMCO (investment management): Built migration tooling and engaged internal platform customers to migrate from on-prem MongoDB to AWS DocumentDB, supported platform customers."
+      - "2016-2019 (contract) - Senior DevOps and Data Engineer at Sharada Capital (forex algo trading startup): Built out a fully automated private cloud infrastructure-as-code and configuration management stack for over 100 VMWare VMs and LXD containers, including developer platforms, Artifactory, NFS, Postgres, Apache, and source control servers with helper scripts in Python and bash. Implemented complex network configurations to support low latency trading platforms."
+      - "2015-2016 (contract) - Senior Data Engineer at Qlinary (restaurant back office SaaS startup): Designed and built AWS data and cloud architecture with Postgresql, secured VPCs, OpsWorks, Solr, and Java Play Framework."
+      - "2022-present (part time) Hands on CTO at rfidCollect (RFID integration provider): Built modular RFID and BLE data collection platforms for asset tracking, people tracking, and geofencing. Built Rust mDNS service discovery tool. Managed offshore team of four developers and a project manager. Deployed solutions to AWS, Azure, Digital Ocean, Vultr, and on prem including air gapped networks."
+      - "2018-2024 (part time) - Founder and lead developer at nodelauncher.com (cryptocurrency secure node hosting service): Designed and built infrastructure and deployment tooling, operated node hosting on leased bare metal for over 200 Horizen nodes, operated GPU-based crypto mining systems with over 20 GPUs."
+
   - title: Senior Database Architect
     company: Certain, Inc.
     location: San Francisco, CA USA
-    dateRange: Aug 2013 - Nov 2014
+    dateRange: 2013 - 2014
     description:
-      - Championed a migration from SQL Server to Postgres, leading the database portion
-      - Designed and built the schema and database code to migrate to Postgres, built parallel deployments for both platforms for releases, and constructed a cutover process to load data into Postgres.
-      - Worked on SQL Server data modeling and performance tuning, including intervention in Java and ColdFusion backends
-      - Translated ASCII to Unicode migration planning and coding, designing and developing script to automatically copy every table definition to new database, change data types, copy over data and remaining schema objects- Championed a migration from SQL Server to Postgres, leading the database portion - Designed and built the schema and database code to migrate to Postgres, built parallel deployments for both platforms for releases, and constructed a cutover process to load data into Postgres. - Worked on SQL Server data modeling and performance tuning, including intervention in Java and ColdFusion backends - Translated ASCII to Unicode migration planning and coding, designing and developing script to automatically copy every table definition to new database, change data types, copy over data and remaining schema objects
-      #Skills: JavaScript · Amazon Web Services (AWS) · Microsoft SQL Server · PostgreSQL · JavaSkills: JavaScript · Amazon Web Services (AWS) · Microsoft SQL Server · PostgreSQL · Java
-  - title: Database Architect/Senior Consultant
+      - "Designed and built the schema and database code to migrate a medium sized B2B SaaS application from SQL Server to Postgres with parallel deployments for both platforms for releases and a cutover process to load data into Postgres."
+      - "Designed and prototyped database object source control and deployment process with Liquibase and Subversion."
+
+  - title: Senior Programmer
     company: Intel Corporation
-    location: Penang, Malaysia
-    dateRange: Sep 2011 - Jul 2013
+    location: Hillsboro OR, USA and Penang, Malaysia
+    dateRange: 1997 - 2013
     description:
-      - Led data architecture updates for major revamp of Intel excursion management system on Microsoft SQL Server, ASP/ASP.NET platform- Led data architecture updates for major revamp of Intel excursion management system on Microsoft SQL Server, ASP/ASP.NET platform
-      #Skills: Microsoft SQL Server · Data Modeling · ASP.NET · C#Skills: Microsoft SQL Server · Data Modeling · ASP.NET · C#
-  - title: Data Architect, Database & Reporting Manager
+      - "Led 3 major database server upgrades of 40+ servers across 9 environments, reducing downtime by 1,000%, and saving $100,000 in costs"
+      - "Migrated over 40 on prem production and UAT app and database servers from Hillsboro, OR, to Folsom, CA"
+      - "Co-chaired the Task Group for the Supply Chain Communication Subcommittee, leading the creation of IPC-2578, a pivotal industry standard enhancing data exchange across global electronics supply chains"
+      - "Collaborated with network engineering to securely move production servers into a DMZ enclave network"
+      - "Managed change control processes and supported the deployment of horizontally partitioned replicas at offshore partner sites in Malaysia"
+      - "Assisted in capacity planning and resource allocation to ensure the availability of necessary infrastructure resources"
+      - "Designed and optimized a complex product data management and issue tracking system with thousands of tables and views"
+      - "Engaged with multinational teams from Malaysia, the Philippines, and India, contributing to cross-geographical projects"
+      - "Served as incident commander for supply chain apps section, led on-call transition to follow-the-sun support model"
+
+  - title: VP Database and Reporting Manager
     company: Deutsche Bank
     location: Manila, Philippines
-    dateRange: Sep 2010 - Aug 2011
+    dateRange: 2010 - 2011
     description:
-      - Oversaw 12 Direct Reports
-      - Provided database design and implementation guidance to technical and business analysts during project design phase
-      - Recommended infrastructure configuration for maximum application performance and reliability
-      - Performance tuned database and application bottlenecks
-      #Skills: BPMN · Business Process Outsourcing (BPO) · Oracle · JavaSkills: BPMN · Business Process Outsourcing (BPO) · Oracle · Java
-#Intel Corporation logo
-#DBA, Modeler, System Analyst & Senior Programmer
-  - title: DBA, Modeler, System Analyst & Senior Programmer
-    company: Intel Corporation
-    location: Hillsboro, OR USA
-    dateRange: Apr 1999 - Aug 2010
-    description:
-      - Collaborated with network engineering to move production servers into a secure enclave DMZ network
-      - Migrated production server environment and data from Hillsboro, OR, to Folsom, CA, moved DR hot site
-      - Deployed and supported horizontally partitioned replica at Malaysia outsource partner site
-      - Managed data model and change control process – designed and modeled schema for complex product data management and issue tracking system containing thousands of tables and views across multiple databases
-      - Optimized, modeled, and approved changes submitted by other developers
-      - Worked extensively with multinational teams from Malaysia, the Philippines, and India – led and participated in cross-geo projects- Collaborated with network engineering to move production servers into a secure enclave DMZ network - Migrated production server environment and data from Hillsboro, OR, to Folsom, CA, moved DR hot site - Deployed and supported horizontally partitioned replica at Malaysia outsource partner site - Managed data model and change control process – designed and modeled schema for complex product data management and issue tracking system containing thousands of tables and views across multiple databases - Optimized, modeled, and approved changes submitted by other developers - Worked extensively with multinational teams from Malaysia, the Philippines, and India – led and participated in cross-geo projects
-      #Skills: Microsoft SQL Server · JavaScript · Data Modeling · IT Infrastructure Management · SSIS
+      - "Managed Oracle data backend development and Cognos reporting development team with 12 direct reports for BPMS workflow system used by several thousand agents in Philippines and India BPO centers"
+
 skills:
   Infrastructure:
     - Terraform

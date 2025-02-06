@@ -8,7 +8,8 @@
 		"build": "astro check && astro build",
 		"preview": "astro preview",
 		"astro": "astro",
-		"lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,md,mdx,svelte,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,svelte,astro}\""
+		"lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,md,mdx,svelte,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,svelte,astro}\"",
+		"pdfresume": "node resume/pdf-resume"
 	},
 	"dependencies": {
 		"@astrojs/alpinejs": "^0.4.0",
@@ -28,6 +29,7 @@
 		"astro-icon": "^1.1.0",
 		"clsx": "^2.1.0",
 		"markdown-pdf": "^11.0.0",
+		"md-to-pdf": "^5.2.4",
 		"mdast-util-to-string": "^4.0.0",
 		"reading-time": "^1.5.0",
 		"rehype-external-links": "^3.0.0",
