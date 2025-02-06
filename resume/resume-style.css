@@ -1,0 +1,55 @@
+body {
+  font-size: 60%;
+  margin: 0.1em;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Add styling for the contact info section */
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 1em 0;
+}
+
+
+/* Header styling */
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Contact info section */
+.contact-left {
+  float: left;
+}
+
+.contact-right {
+  float: right;
+}
