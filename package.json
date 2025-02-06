@@ -1,5 +1,6 @@
 {
 	"name": "astro-resume-01",
+	"packageManager": "pnpm@8.x.x",
 	"type": "module",
 	"version": "0.0.1",
 	"scripts": {
